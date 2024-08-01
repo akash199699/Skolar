@@ -1,0 +1,227 @@
+<!-- Defines the document type -->
+<!DOCTYPE html> 
+<html lang="en">
+<!-- HEAD section  -->
+<head>
+    <!-- Meta information of the documnet
+     It sets the character encoding -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=10.css">
+    <!-- The title that appears in the browser tab -->
+    <title>Assignment 10</title>
+    <!-- Basic CSS styling for HTML documnent -->
+    <style>
+        body{
+            padding: 0px;
+            margin: 0;
+            background-color:aliceblue;
+        }
+        header,footer{
+            padding: 20px;
+            color: white;
+            background-color:chocolate;
+            text-align: center;
+        }
+        nav{
+            display: flex;
+            justify-content: space-evenly;
+            background-color:burlywood;
+            padding: 10px 0px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        nav a{
+            text-decoration: none;
+            padding: 10px 40px;
+            color: white;
+            background-color:chocolate;
+            border: 1px solid;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        nav a:hover{
+            background-color: lightskyblue;
+        }
+        .mainc{
+            display: flex;
+        }
+        .mainc div{
+            padding: 10px;
+            width: 75%;
+        }
+        .mainc aside{
+            width: 25%;
+            background-color:azure;
+            margin: 4px;
+            padding: 0px 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        .content{
+            margin: 4px;
+            border: 1px solid;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        .main-cont{
+            padding: 5px;
+            margin-bottom: 25px;
+        }
+        .secont{
+            background-color: beige;
+            color: brown;
+            padding: 10px;
+            border: 1px solid;
+            border-radius: 20px;
+            margin-top: 10px;
+            width: 125%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        .secontents a{
+            text-decoration: none;
+        }
+        .secontents a section:hover{
+            background-color: bisque;
+        }
+        h3{
+            text-align: center;
+        }
+        aside a{
+            text-decoration: none;
+            color:coral;
+            font-size: large;
+        }
+        aside a:hover{
+            color: blueviolet;
+        }
+        img,video{
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .secform{
+            text-align: center;
+            background-color:antiquewhite;
+            color: brown;
+            padding: 10px;
+            border: 1px solid;
+            border-radius: 20px;
+            margin-top: 30px;
+            width: 90%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+        .secform input,button{
+            width: 90%;
+            margin-top: 10px;
+            padding: 5px; 
+            border-radius: 7px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);        
+        }
+        .secform button{
+            color: white;
+            background-color: green;
+        }
+        .secform button:hover{
+            color: black;
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<!-- MAIN content section -->
+<body>
+    <!-- header section with navigation links-->
+    <header>
+        <h1>Assignment 10</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#articles">Articles</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+<!-- MAIN CONTENT -->
+    <main class="mainc">
+        <div class="content">
+<!-- Article tag for adding articles to HTML document -->
+        <article  class="main-cont">
+            <h1>Article : XYZ</h1>
+            <!-- image tag-->
+            <img src="Img\1.jpeg" alt="">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, corrupti sequi accusamus quo nisi veritatis est quis sapiente optio nemo, porro similique libero consequuntur consequatur repellendus harum?   Harum, quis enim.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt enim quia quidem numquam consequatur. Error id, ea nemo non quo ipsam alias quia hic dolorem praesentium odio atque debitis numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laborum maiores aliquid quasi fugiat repudiandae facilis aperiam in fuga. Fuga magnam soluta odit fugiat voluptatum harum ipsum reiciendis nihil doloremque!
+        </article>
+
+        <div class="secontents">
+        <!-- Link to external page using <a> tag-->
+        <a href="AI">
+            <section class="secont">
+            <h3>AI</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum similique, debitis praesentium recusandae iusto cum eius corrupti eveniet perspiciatis architecto dolorem qui vel nam mollitia id animi adipisci, quae placeat?
+        </section></a>
+
+        <a href="science">
+            <section class="secont">
+                <h3>Science</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum similique, debitis praesentium recusandae iusto cum eius corrupti eveniet perspiciatis architecto dolorem qui vel nam mollitia id animi adipisci, quae placeat?
+            </section></a>
+
+        <a href="future">
+        <section class="secont">
+            <h3>Future</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum similique, debitis praesentium recusandae iusto cum eius corrupti eveniet perspiciatis architecto dolorem qui vel nam mollitia id animi adipisci, quae placeat?
+        </section></a>
+
+        <section class="secont">
+            <h2 style="text-align: center;">Special Characters</h2>
+            <p>Examples of special characters used in HTML:</p>
+            <ul>
+                <li>Ampersand: <code>&amp;</code> &amp;</li>
+                <li>Less than: <code>&lt;</code> &lt;</li>
+                <li>Greater than: <code>&gt;</code> &gt;</li>
+                <li>Copyright: <code>&copy;</code> &copy; 2024</li>
+                <li>Registered Trademark: <code>&reg;</code> &reg;</li>
+                <li>Trademark: <code>&trade;</code> &trade;</li>
+            </ul>
+        </section>
+
+        </div>
+        </div>
+        <!-- to create a sidebar -->
+        <aside>
+            <video controls src="Video/7.1.mp4"></video>
+            <h2>Related Links</h2><hr>
+            <a href="AI">AI</a><hr>
+            <!-- <a href="code">Code</a><hr>-->
+            <a href="science">Science</a><hr> 
+            <a href="future">Future</a><hr>
+            <!-- <a href="war">War</a><hr> -->
+            
+            <!-- a separate section for form -->
+            <section class="secform">
+                <h2>Form</h2>
+                <form action="submitform">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" placeholder="Name"><br><br>
+                    <label for="Phone">Ph no :</label>
+                    <input type="text" name="Phone" placeholder="xxxxx xxxxx"><br><br>
+                    <button>
+                        Submit
+                    </button>
+                </form>
+            </section>
+        </aside>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <!--Common symbols used  -->
+        &copy; 2024  <!-- <hr>copyright  -->
+        <!-- Akash&reg;<hr> Registered  -->
+        <!-- Skolar&trade;<br> Trade Mark  -->
+    </footer>
+    
+</body>
+</html>
