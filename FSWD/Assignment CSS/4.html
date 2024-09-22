@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: azure;
+        }
+        header, footer {
+            color: white;
+            text-align: center; 
+            background-color: teal; 
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .main-cont{
+            display: flex;
+        }
+
+        /* Default form box styling */
+        .form-box {
+            background-color: antiquewhite;
+            text-align: right;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            width: 270px;
+        }
+        .form-box button {
+            color: white;
+            background-color: teal;
+            border-radius: 7px;
+            padding: 5px 10px;
+        }
+        .form-box button:hover {
+            background-color: aquamarine;
+            color: teal;
+        }
+        .form-box input {
+            border-radius: 7px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            padding: 5px;
+            margin: 10px;
+        }
+
+        /* Content-box model */
+        .content-box {
+            border: 2px solid crimson;
+            box-sizing: content-box;
+            text-align: center;
+        }
+
+        /* Border-box model */
+        .border-box {
+            border: 2px solid teal;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Assignment 4</h1>
+    </header>
+
+    <section class="main-cont" style="text-align: center; padding: 10px;">
+        <!-- Form box with content-box -->
+        <div class="form-box content-box">
+            <h2>Content-Box Model</h2>
+            <form action="/submitform">
+                <section>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"> <br>
+                </section>
+                <section>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"> <br>
+                </section>
+                <section>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password"> <br>
+                </section>
+                <section>
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">Agree to the Terms and Conditions</label> <br><br>
+                </section>
+                <section>
+                    <button type="submit">SUBMIT</button>
+                </section>
+            </form>
+        </div>
+
+        <!-- Form box with border-box -->
+        <div class="form-box border-box">
+            <h2>Border-Box Model</h2>
+            <form action="/submitform">
+                <section>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"> <br>
+                </section>
+                <section>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"> <br>
+                </section>
+                <section>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password"> <br>
+                </section>
+                <section>
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">Agree to the Terms and Conditions</label> <br><br>
+                </section>
+                <section>
+                    <button type="submit">SUBMIT</button>
+                </section>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024</p>
+    </footer>
+</body>
+</html>

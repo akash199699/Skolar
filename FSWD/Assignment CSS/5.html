@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: aliceblue;
+            font-family: Arial, sans-serif;
+        }
+
+        header, footer {
+            background-color: rgb(173, 234, 176);
+            text-align: center;
+            border: 1px solid;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 10px 50px;
+            background-color: rgb(173, 234, 176);
+        }
+
+        nav a {
+            color: darksalmon;
+            background-color: black;
+            padding: 10px 20px;
+            border: 1px solid;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: white;
+        }
+
+        .main-cont {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        main {
+            background-color: antiquewhite;
+            padding: 20px;
+            width: 60%;
+            border: 1px solid;
+        }
+
+        aside {
+            background-color: lightgray;
+            border: 1px solid;
+            padding: 10px;
+            width: 25%;
+        }
+
+        .sidebar a {
+            color: red;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+        }
+
+        footer {
+            padding: 10px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Assignment 5 </h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="main-cont">
+        <!-- Main content -->
+        <main>
+            <h2>Introduction to HTML</h2>
+            <p>HTML (Hypertext Markup Language) is the fundamental language for creating and structuring web pages. It uses tags to define elements like headings, paragraphs, links, and images, providing the basic layout and organization of content on the web. An HTML document typically includes a <code>&lt;!DOCTYPE html&gt;</code> declaration, a <code>&lt;head&gt;</code> section for meta-information, and a <code>&lt;body&gt;</code> section for the main content.</p>
+            <p>Common HTML tags include <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> for headings, <code>&lt;p&gt;</code> for paragraphs, <code>&lt;a&gt;</code> for links, and <code>&lt;img&gt;</code> for images. Attributes such as <code>href</code> for links and <code>src</code> for images add additional details to these elements. Forms, created with <code>&lt;form&gt;</code>, <code>&lt;input&gt;</code>, and <code>&lt;button&gt;</code>, allow users to submit data to a server.</p>
+            <p>Understanding HTML is crucial for web development as it forms the structure for all web content. Mastery of HTML provides the foundation for creating well-organized and functional web pages.</p>
+        </main>
+
+        <!-- Sidebar content -->
+        <aside>
+            <h2>Related Topics</h2>
+            <a href="https://www.geeksforgeeks.org/html-introduction/">Introduction to HTML</a>
+            <hr>
+            <a href="https://www.geeksforgeeks.org/css-introduction/">Introduction to CSS</a>
+            <hr>
+            <a href="https://www.geeksforgeeks.org/introduction-to-javascript/">Introduction to JS</a>
+            <hr>
+            <a href="https://www.geeksforgeeks.org/html-basics/">Basics of HTML</a>
+            <hr>
+            <a href="https://www.geeksforgeeks.org/css-introduction/">Basics of CSS</a>
+            <hr>
+            <a href="https://www.geeksforgeeks.org/javascript-basics/">Basics of JS</a>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Product Showcase</p>
+        <p>Contact: 977 977 9977 | Email: abc@skolar.com</p>
+    </footer>
+</body>
+</html>

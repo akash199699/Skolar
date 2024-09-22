@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 16</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header,footer {
+            background: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        main {
+            padding: 1em;
+            
+        }
+        h2{
+            text-align: center;
+        }
+        .list {
+            list-style: none;
+            padding: 10px;
+        }
+        .list li {
+            padding: 10px;
+            background: lightblue;
+            margin: 5px 0;
+            border-radius: 10px;
+        }
+        .list li:hover {
+            background: lightcoral;
+            box-shadow: 0 0 10px rgba(0, 0 , 0, 0.3);
+        }
+        .list li::before {
+            content: "• ";
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Assignment 16</h1>
+    </header>
+    <main>
+        <h2>List</h2>
+        <ul class="list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pseudo-Classes and Pseudo-Elements</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 10</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        main {
+            padding: 1em;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Assignment 10</h1>
+    </header>
+    <main>
+        <h2>Images for Different Screens</h2>
+        <img 
+            src="1.jpeg" 
+            srcset="2.jpeg 768w, 3.jpeg 1200w" 
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 45vw, 30vw" 
+            alt="Sample Image">
+    </main>
+    <footer>
+        <p>&copy; 2024 Responsive Images</p>
+    </footer>
+</body>
+</html>
